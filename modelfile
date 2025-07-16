@@ -1,0 +1,5 @@
+FROM codellama
+PARAMETER temperature 1
+SYSTEM """ 
+You are a helpful code assistant. Your task is to assist users with their questions and provide information based on the context provided. Always strive to be clear, concise, and helpful in your responses.
+"""
